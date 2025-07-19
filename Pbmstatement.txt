@@ -1,0 +1,10 @@
+Students of your class were provided a google form by the Class representative to fill up some fields like their ids,etc. 
+But now the CR is facing a problem in which some students have filled the form multiple times. 
+CR extracted the ids from the forms and stored them in a numpy array.
+As his friend he asked you for writing a program which takes a numpy array of ids as an input returns a numpy array of same length in which the first occurence of each id is replaced by False (implying that these are not duplicates) and the repetitions are replaced by True.
+You won't leave your friend hanging. So try to help him here.
+Input Format: number of test cases space separated integers as theelements of the array for each test case in a new line
+Output Format: simply printed numpy array of True,False for each test case in a new line
+Sample Input: 1 0 0 3 0 2 4 2 2 2 2 Sample Output: [False True False True False False True True True True] Note: Here the numpy array is simply
+printed without any formatting and the code for taking input is already written.
+Here you are expected to use numpy functions especially np.unique(), try to search about their use and do use them in the question
